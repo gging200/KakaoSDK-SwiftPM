@@ -88,7 +88,7 @@ enum KakaoSDK: String {
     case story = "KakaoSDKStory"
     case navi = "KakaoSDKNavi"
     
-    var version: String { "2.5.5" }
+    var version: String { "2.11.1" }
     var path: String { "Sources/kakao-ios-sdk-\(version)/sources/\(rawValue)" }
     var name: String { rawValue }
     var dependency: Target.Dependency { .init(stringLiteral: name) }
